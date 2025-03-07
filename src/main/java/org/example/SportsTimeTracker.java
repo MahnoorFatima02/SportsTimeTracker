@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class SportsTimeTracker {
 
-    HashMap<String, Integer> activities = new HashMap<>();
+    public HashMap<String, Integer> activities = new HashMap<>();
     public int totalTimeSpent() {
         Integer sum = 0;
         for (String activity: activities.keySet()) {
