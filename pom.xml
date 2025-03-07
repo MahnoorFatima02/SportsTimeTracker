@@ -49,7 +49,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>SportsTimeTracker</mainClass> <!-- Correct main class -->
+                            <mainClass>org.example.SportsTimeTracker</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
