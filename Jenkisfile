@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'git@github.com:MahnoorFatima02/SportsTimeTracker.git'
+                git branch: 'main', url: 'git@github.com:MahnoorFatima02/SportsTimeTracker.git'
             }
         }
         stage('Build') {
